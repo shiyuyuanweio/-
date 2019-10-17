@@ -1,0 +1,83 @@
+/* 京东首页的css */
+.jd{
+    height: 480px;
+    background-color: pink;
+    position: relative;
+}
+.jd-inner{
+    height: 480px;
+    background-color: skyblue;
+    position: relative;
+    z-index: 2;
+
+}
+.ad{
+    height: 480px;
+    background: url(../images/bg.png) no-repeat;
+    position: absolute; /* 转换行内块元素 */
+    top: 0;
+    left: -9px;
+    width: 100%;  /*一定要写宽度 */
+}
+.ad a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.jd-clo1{
+    width: 190px;
+    height: 465px;
+    background-color: #6E6568;
+    float: left;
+    padding-top: 15px;
+    
+}
+.jd-clo1 li{
+    padding-left: 10px;
+    height: 28px;
+    line-height: 28px;
+    color: #ccc;
+   
+}
+.jd-clo1 li:hover{
+    background-color: #999395;
+}
+.jd-clo1 li a{
+    color: #fff;
+    font-size: 14px;
+}
+.jd-clo1 li span{
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.jd-clo2{
+    width: 790px;
+    height: 480px;
+    /* background-color: salmon; */
+    float: left;
+    margin-left: 10px;
+}
+.jd-clo2-hd{
+    height: 340px;
+    /* background-color: pink; */
+    margin-bottom: 10px;
+}
+.jd-clo2-bd div{
+    width: 390px;
+    height: 130px;
+    float: left;
+}
+.jd-clo2-bd div img{
+    width: 100%;
+}
+.firstPic{
+    margin-right: 10px;
+}
+.jd-clo3{
+    width: 190px;
+    height: 480px;
+    background-color: yellow;
+    float: right;
+}
