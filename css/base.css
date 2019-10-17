@@ -34,7 +34,9 @@ a{
 .clearfix{
     *zoom: 1;
 }
-
+img{
+     vertical-align: top;/* 去除 圖片底冊縫隙 圖片與文字基線對齊 */
+}
 @font-face {
     font-family: 'icomoon';
     src:  url('../fonts/icomoon.eot?axvffw');
