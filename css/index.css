@@ -63,6 +63,8 @@
     height: 340px;
     /* background-color: pink; */
     margin-bottom: 10px;
+    position: relative;
+    
 }
 .jd-clo2-bd div{
     width: 390px;
@@ -75,6 +77,26 @@
 .firstPic{
     margin-right: 10px;
 }
+.arr-l , .arr-r{
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 30px;
+    height: 60px;
+    background: rgba(0,0,0,.3);
+    font-family: "icommoon";
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+.arr-l{
+    left: 0;
+}
+.arr-r{
+    right: 0;
+}
+
 .jd-clo3{
     width: 190px;
     height: 480px;
