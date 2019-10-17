@@ -34,6 +34,7 @@ a{
 .clearfix{
     *zoom: 1;
 }
+
 @font-face {
     font-family: 'icomoon';
     src:  url('../fonts/icomoon.eot?axvffw');
