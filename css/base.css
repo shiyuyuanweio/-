@@ -35,7 +35,7 @@ a{
     *zoom: 1;
 }
 img{
-     vertical-align: top;/* 去除 圖片底冊縫隙 圖片與文字基線對齊 */
+    vertical-align: top;
 }
 @font-face {
     font-family: 'icomoon';
